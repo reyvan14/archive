@@ -1,0 +1,11 @@
+{"time":"2025-04-10T14:23:31.077308838+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/root/autodl-tmp/LLaMA-Factory/wandb/run-20250410_142331-ly0k10vn/logs/debug-core.log"}
+{"time":"2025-04-10T14:23:31.7267996+08:00","level":"INFO","msg":"created new stream","id":"ly0k10vn"}
+{"time":"2025-04-10T14:23:31.726867049+08:00","level":"INFO","msg":"stream: started","id":"ly0k10vn"}
+{"time":"2025-04-10T14:23:31.726892259+08:00","level":"INFO","msg":"sender: started","stream_id":"ly0k10vn"}
+{"time":"2025-04-10T14:23:31.726978578+08:00","level":"INFO","msg":"handler: started","stream_id":"ly0k10vn"}
+{"time":"2025-04-10T14:23:31.727083497+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"ly0k10vn"}
+{"time":"2025-04-10T14:23:32.146611905+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-10T14:25:53.280676318+08:00","level":"INFO","msg":"stream: closing","id":"ly0k10vn"}
+{"time":"2025-04-10T14:25:53.280711847+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-10T14:25:53.280836756+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-10T14:25:54.391879072+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}

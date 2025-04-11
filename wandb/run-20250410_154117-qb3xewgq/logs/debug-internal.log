@@ -1,0 +1,15 @@
+{"time":"2025-04-10T15:41:17.517241696+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/root/autodl-tmp/LLaMA-Factory/wandb/run-20250410_154117-qb3xewgq/logs/debug-core.log"}
+{"time":"2025-04-10T15:41:18.163326958+08:00","level":"INFO","msg":"created new stream","id":"qb3xewgq"}
+{"time":"2025-04-10T15:41:18.163392728+08:00","level":"INFO","msg":"stream: started","id":"qb3xewgq"}
+{"time":"2025-04-10T15:41:18.163460587+08:00","level":"INFO","msg":"sender: started","stream_id":"qb3xewgq"}
+{"time":"2025-04-10T15:41:18.163482077+08:00","level":"INFO","msg":"handler: started","stream_id":"qb3xewgq"}
+{"time":"2025-04-10T15:41:18.163455227+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"qb3xewgq"}
+{"time":"2025-04-10T15:41:18.515268598+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-10T16:09:48.728370612+08:00","level":"INFO","msg":"stream: closing","id":"qb3xewgq"}
+{"time":"2025-04-10T16:09:48.728426481+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-10T16:09:48.728509331+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-10T16:09:51.107462388+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-10T16:09:51.632739266+08:00","level":"INFO","msg":"handler: closed","stream_id":"qb3xewgq"}
+{"time":"2025-04-10T16:09:51.632799805+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"qb3xewgq"}
+{"time":"2025-04-10T16:09:51.632827725+08:00","level":"INFO","msg":"sender: closed","stream_id":"qb3xewgq"}
+{"time":"2025-04-10T16:09:51.632884374+08:00","level":"INFO","msg":"stream: closed","id":"qb3xewgq"}

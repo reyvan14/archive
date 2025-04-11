@@ -1,0 +1,39 @@
+{
+  "os": "Linux-5.15.0-122-generic-x86_64-with-glibc2.35",
+  "python": "CPython 3.10.16",
+  "startedAt": "2025-04-10T08:34:03.907395Z",
+  "args": [
+    "examples/train_lora/llama3_lora_sft.yaml"
+  ],
+  "program": "/root/miniconda3/envs/test/bin/llamafactory-cli",
+  "email": "reyvan@qq.com",
+  "root": "/root/autodl-tmp/LLaMA-Factory",
+  "host": "autodl-container-30ee479a6b-8a1ea10a",
+  "executable": "/root/miniconda3/envs/test/bin/python",
+  "cpu_count": 64,
+  "cpu_count_logical": 128,
+  "gpu": "NVIDIA H20",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "32212254720",
+      "used": "21355028480"
+    }
+  },
+  "memory": {
+    "total": "1330811772928"
+  },
+  "cpu": {
+    "count": 64,
+    "countLogical": 128
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA H20",
+      "memoryTotal": "102625181696",
+      "cudaCores": 9984,
+      "architecture": "Hopper"
+    }
+  ],
+  "cudaVersion": "12.7"
+}

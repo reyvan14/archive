@@ -1,0 +1,5 @@
+#!/bin/bash
+export FORCE_TORCHRUN=1
+PORT=$(shuf -i 20000-65000 -n 1)  # 随机选一个端口
+torchrun --nproc_per_node=1 --master_port=$PORT \
+  -m llamafactory.cli train examples/train_lora/llama3_lora_sft.yaml

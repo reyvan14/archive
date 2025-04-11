@@ -1,0 +1,6 @@
+model_name_or_path: ../Qwen/Qwen2.5-32B-Instruct
+adapter_name_or_path: saves/Qwen2.5-32B-Instructs/lora/sft_fast10
+template: qwen
+infer_backend: vllm
+vllm_enforce_eager: true
+trust_remote_code: true

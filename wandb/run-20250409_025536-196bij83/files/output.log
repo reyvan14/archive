@@ -1,0 +1,90 @@
+                                                                                                                                                                                                      
+{'loss': 0.4226, 'grad_norm': 0.14122186601161957, 'learning_rate': 6.25e-06, 'epoch': 0.01}
+{'loss': 0.8536, 'grad_norm': 0.2619870901107788, 'learning_rate': 1.25e-05, 'epoch': 0.03}
+{'loss': 1.0122, 'grad_norm': 0.34338343143463135, 'learning_rate': 1.8750000000000002e-05, 'epoch': 0.04}
+{'loss': 1.0774, 'grad_norm': 0.3506418764591217, 'learning_rate': 2.5e-05, 'epoch': 0.05}
+{'loss': 1.0931, 'grad_norm': 0.3964153230190277, 'learning_rate': 3.125e-05, 'epoch': 0.06}
+{'loss': 1.1614, 'grad_norm': 0.49440476298332214, 'learning_rate': 3.7500000000000003e-05, 'epoch': 0.08}
+{'loss': 1.219, 'grad_norm': 0.5596832633018494, 'learning_rate': 4.375e-05, 'epoch': 0.09}
+{'loss': 1.1852, 'grad_norm': 0.6366600394248962, 'learning_rate': 5e-05, 'epoch': 0.1}
+{'loss': 1.1526, 'grad_norm': 0.6718966960906982, 'learning_rate': 5.6250000000000005e-05, 'epoch': 0.11}
+{'loss': 1.1936, 'grad_norm': 0.6795385479927063, 'learning_rate': 6.25e-05, 'epoch': 0.13}
+{'loss': 1.0927, 'grad_norm': 0.6117997765541077, 'learning_rate': 6.875e-05, 'epoch': 0.14}
+{'loss': 1.0875, 'grad_norm': 0.6165421605110168, 'learning_rate': 7.500000000000001e-05, 'epoch': 0.15}
+{'loss': 1.0004, 'grad_norm': 0.5709540247917175, 'learning_rate': 8.125000000000001e-05, 'epoch': 0.16}
+{'loss': 0.9349, 'grad_norm': 0.5666609406471252, 'learning_rate': 8.75e-05, 'epoch': 0.18}
+{'loss': 0.9016, 'grad_norm': 0.5319855809211731, 'learning_rate': 9.375e-05, 'epoch': 0.19}
+{'loss': 0.7005, 'grad_norm': 0.6978158354759216, 'learning_rate': 0.0001, 'epoch': 0.2}
+{'loss': 0.5136, 'grad_norm': 1.0035957098007202, 'learning_rate': 9.998776383426216e-05, 'epoch': 0.22}
+{'loss': 0.2711, 'grad_norm': 1.880338430404663, 'learning_rate': 9.995106132599869e-05, 'epoch': 0.23}
+{'loss': 0.1926, 'grad_norm': 1.7085299491882324, 'learning_rate': 9.988991043912857e-05, 'epoch': 0.24}
+{'loss': 0.3872, 'grad_norm': 0.15581104159355164, 'learning_rate': 9.980434110374724e-05, 'epoch': 0.25}
+{'loss': 0.6447, 'grad_norm': 0.28684499859809875, 'learning_rate': 9.969439520147754e-05, 'epoch': 0.27}
+{'loss': 0.6487, 'grad_norm': 0.30869024991989136, 'learning_rate': 9.956012654497074e-05, 'epoch': 0.28}
+{'loss': 0.6989, 'grad_norm': 0.3186010718345642, 'learning_rate': 9.94016008515682e-05, 'epoch': 0.29}
+{'loss': 0.6954, 'grad_norm': 0.3181076943874359, 'learning_rate': 9.921889571113628e-05, 'epoch': 0.3}
+{'loss': 0.6778, 'grad_norm': 0.279615581035614, 'learning_rate': 9.901210054809015e-05, 'epoch': 0.32}
+{'loss': 0.6933, 'grad_norm': 0.25791317224502563, 'learning_rate': 9.878131657762535e-05, 'epoch': 0.33}
+{'loss': 0.6777, 'grad_norm': 0.22727161645889282, 'learning_rate': 9.852665675617837e-05, 'epoch': 0.34}
+{'loss': 0.6073, 'grad_norm': 0.20524361729621887, 'learning_rate': 9.824824572614051e-05, 'epoch': 0.35}
+{'loss': 0.6404, 'grad_norm': 0.21296784281730652, 'learning_rate': 9.794621975485201e-05, 'epoch': 0.37}
+{'loss': 0.6016, 'grad_norm': 0.23518677055835724, 'learning_rate': 9.762072666790658e-05, 'epoch': 0.38}
+{'loss': 0.5559, 'grad_norm': 0.25929439067840576, 'learning_rate': 9.727192577679851e-05, 'epoch': 0.39}
+{'loss': 0.6074, 'grad_norm': 0.2849181890487671, 'learning_rate': 9.689998780094837e-05, 'epoch': 0.41}
+{'loss': 0.5008, 'grad_norm': 0.24533692002296448, 'learning_rate': 9.650509478414482e-05, 'epoch': 0.42}
+{'loss': 0.4917, 'grad_norm': 0.2709329128265381, 'learning_rate': 9.608744000544392e-05, 'epoch': 0.43}
+{'loss': 0.2796, 'grad_norm': 0.6502574682235718, 'learning_rate': 9.564722788456944e-05, 'epoch': 0.44}
+{'loss': 0.1661, 'grad_norm': 0.3622041940689087, 'learning_rate': 9.51846738818602e-05, 'epoch': 0.46}
+{'loss': 0.0095, 'grad_norm': 0.40856850147247314, 'learning_rate': 9.470000439281379e-05, 'epoch': 0.47}
+{'loss': 0.0015, 'grad_norm': 0.06216855347156525, 'learning_rate': 9.419345663727805e-05, 'epoch': 0.48}
+  File "/root/miniconda3/envs/test/bin/llamafactory-cli", line 8, in <module>
+    sys.exit(main())
+  File "/root/autodl-tmp/LLaMA-Factory/src/llamafactory/cli.py", line 117, in main
+    run_exp()
+  File "/root/autodl-tmp/LLaMA-Factory/src/llamafactory/train/tuner.py", line 127, in run_exp
+    _training_function(config={"args": args, "callbacks": callbacks})
+  File "/root/autodl-tmp/LLaMA-Factory/src/llamafactory/train/tuner.py", line 70, in _training_function
+    run_sft(model_args, data_args, training_args, finetuning_args, generating_args, callbacks)
+  File "/root/autodl-tmp/LLaMA-Factory/src/llamafactory/train/sft/workflow.py", line 102, in run_sft
+    train_result = trainer.train(resume_from_checkpoint=training_args.resume_from_checkpoint)
+  File "/root/miniconda3/envs/test/lib/python3.10/site-packages/transformers/trainer.py", line 2245, in train
+    return inner_training_loop(
+  File "/root/miniconda3/envs/test/lib/python3.10/site-packages/transformers/trainer.py", line 2556, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "/root/miniconda3/envs/test/lib/python3.10/site-packages/transformers/trainer.py", line 3764, in training_step
+    self.accelerator.backward(loss, **kwargs)
+  File "/root/miniconda3/envs/test/lib/python3.10/site-packages/accelerate/accelerator.py", line 2359, in backward
+    loss.backward(**kwargs)
+  File "/root/miniconda3/envs/test/lib/python3.10/site-packages/torch/_tensor.py", line 626, in backward
+    torch.autograd.backward(
+  File "/root/miniconda3/envs/test/lib/python3.10/site-packages/torch/autograd/__init__.py", line 347, in backward
+    _engine_run_backward(
+  File "/root/miniconda3/envs/test/lib/python3.10/site-packages/torch/autograd/graph.py", line 823, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/test/bin/llamafactory-cli", line 8, in <module>
+    sys.exit(main())
+  File "/root/autodl-tmp/LLaMA-Factory/src/llamafactory/cli.py", line 117, in main
+    run_exp()
+  File "/root/autodl-tmp/LLaMA-Factory/src/llamafactory/train/tuner.py", line 127, in run_exp
+    _training_function(config={"args": args, "callbacks": callbacks})
+  File "/root/autodl-tmp/LLaMA-Factory/src/llamafactory/train/tuner.py", line 70, in _training_function
+    run_sft(model_args, data_args, training_args, finetuning_args, generating_args, callbacks)
+  File "/root/autodl-tmp/LLaMA-Factory/src/llamafactory/train/sft/workflow.py", line 102, in run_sft
+    train_result = trainer.train(resume_from_checkpoint=training_args.resume_from_checkpoint)
+  File "/root/miniconda3/envs/test/lib/python3.10/site-packages/transformers/trainer.py", line 2245, in train
+    return inner_training_loop(
+  File "/root/miniconda3/envs/test/lib/python3.10/site-packages/transformers/trainer.py", line 2556, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "/root/miniconda3/envs/test/lib/python3.10/site-packages/transformers/trainer.py", line 3764, in training_step
+    self.accelerator.backward(loss, **kwargs)
+  File "/root/miniconda3/envs/test/lib/python3.10/site-packages/accelerate/accelerator.py", line 2359, in backward
+    loss.backward(**kwargs)
+  File "/root/miniconda3/envs/test/lib/python3.10/site-packages/torch/_tensor.py", line 626, in backward
+    torch.autograd.backward(
+  File "/root/miniconda3/envs/test/lib/python3.10/site-packages/torch/autograd/__init__.py", line 347, in backward
+    _engine_run_backward(
+  File "/root/miniconda3/envs/test/lib/python3.10/site-packages/torch/autograd/graph.py", line 823, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

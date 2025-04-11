@@ -1,0 +1,15 @@
+{"time":"2025-04-10T16:34:03.910104502+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/root/autodl-tmp/LLaMA-Factory/wandb/run-20250410_163403-dgd356zr/logs/debug-core.log"}
+{"time":"2025-04-10T16:34:04.552920353+08:00","level":"INFO","msg":"created new stream","id":"dgd356zr"}
+{"time":"2025-04-10T16:34:04.552980043+08:00","level":"INFO","msg":"stream: started","id":"dgd356zr"}
+{"time":"2025-04-10T16:34:04.553940564+08:00","level":"INFO","msg":"sender: started","stream_id":"dgd356zr"}
+{"time":"2025-04-10T16:34:04.554027204+08:00","level":"INFO","msg":"handler: started","stream_id":"dgd356zr"}
+{"time":"2025-04-10T16:34:04.554063803+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"dgd356zr"}
+{"time":"2025-04-10T16:34:04.862684968+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-10T16:34:27.005956956+08:00","level":"INFO","msg":"stream: closing","id":"dgd356zr"}
+{"time":"2025-04-10T16:34:27.005993856+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-10T16:34:27.006183534+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-10T16:34:27.947294482+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-10T16:34:28.674925439+08:00","level":"INFO","msg":"handler: closed","stream_id":"dgd356zr"}
+{"time":"2025-04-10T16:34:28.675037068+08:00","level":"INFO","msg":"sender: closed","stream_id":"dgd356zr"}
+{"time":"2025-04-10T16:34:28.675032588+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"dgd356zr"}
+{"time":"2025-04-10T16:34:28.675200507+08:00","level":"INFO","msg":"stream: closed","id":"dgd356zr"}

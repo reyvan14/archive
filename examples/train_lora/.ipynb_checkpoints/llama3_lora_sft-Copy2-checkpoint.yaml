@@ -1,0 +1,52 @@
+### model
+model_name_or_path: "../Qwen/Qwen2.5-32B-Instruct"
+trust_remote_code: true
+
+### method
+stage: sft
+do_train: true
+finetuning_type: lora
+lora_rank: 16
+lora_target: ["q_proj", "k_proj", "v_proj", "o_proj", "gate_proj"]
+flash_attn: fa2
+deepspeed: examples/deepspeed/ds_z2_config.json
+use_unsloth: true
+use_gradient_checkpointing: true
+
+### distributed
+distributed_training:
+  enabled: true
+  num_gpus: 2
+  parallelism:
+    tensor_parallelism: true
+    pipeline_parallelism: true
+
+### dataset
+dataset: d1
+template: qwen
+cutoff_len: 4096
+max_samples: 1000000
+overwrite_cache: true
+preprocessing_num_workers: 32
+dataloader_num_workers: 8
+
+### train
+per_device_train_batch_size: 10
+gradient_accumulation_steps: 20
+learning_rate: 1.0e-4
+max_steps: 50
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+bf16: true
+ddp_timeout: 180000000
+resume_from_checkpoint: null
+
+### output
+output_dir: saves/Qwen2.5-32B-Instructs/lora/sft_fast
+logging_steps: 1
+save_steps: 100
+plot_loss: true
+overwrite_output_dir: true
+save_only_model: true
+report_to: none
+run_name: speed_test_fast3

@@ -1,0 +1,10 @@
+{"time":"2025-04-10T15:23:20.380967386+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/root/autodl-tmp/LLaMA-Factory/wandb/run-20250410_152320-v4z8kin7/logs/debug-core.log"}
+{"time":"2025-04-10T15:23:20.999259676+08:00","level":"INFO","msg":"created new stream","id":"v4z8kin7"}
+{"time":"2025-04-10T15:23:20.999310875+08:00","level":"INFO","msg":"stream: started","id":"v4z8kin7"}
+{"time":"2025-04-10T15:23:20.999327355+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"v4z8kin7"}
+{"time":"2025-04-10T15:23:20.999501343+08:00","level":"INFO","msg":"handler: started","stream_id":"v4z8kin7"}
+{"time":"2025-04-10T15:23:20.999528073+08:00","level":"INFO","msg":"sender: started","stream_id":"v4z8kin7"}
+{"time":"2025-04-10T15:23:21.349233782+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-10T15:39:47.545952801+08:00","level":"INFO","msg":"stream: closing","id":"v4z8kin7"}
+{"time":"2025-04-10T15:39:47.54599522+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-10T15:39:47.54607185+08:00","level":"INFO","msg":"Stopped system monitor"}

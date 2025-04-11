@@ -1,0 +1,74 @@
+ 14%|██████████████████████▎                                                                                                                                         | 22/158 [09:20<59:14, 26.14s/it]Traceback (most recent call last):
+{'loss': 0.4226, 'grad_norm': 0.14123395085334778, 'learning_rate': 6.25e-06, 'epoch': 0.01}
+{'loss': 0.8536, 'grad_norm': 0.2618797719478607, 'learning_rate': 1.25e-05, 'epoch': 0.03}
+{'loss': 1.0111, 'grad_norm': 0.3409637212753296, 'learning_rate': 1.8750000000000002e-05, 'epoch': 0.04}
+{'loss': 1.0775, 'grad_norm': 0.34974732995033264, 'learning_rate': 2.5e-05, 'epoch': 0.05}
+{'loss': 1.0943, 'grad_norm': 0.39840155839920044, 'learning_rate': 3.125e-05, 'epoch': 0.06}
+{'loss': 1.1605, 'grad_norm': 0.493133008480072, 'learning_rate': 3.7500000000000003e-05, 'epoch': 0.08}
+{'loss': 1.2189, 'grad_norm': 0.560077428817749, 'learning_rate': 4.375e-05, 'epoch': 0.09}
+{'loss': 1.1853, 'grad_norm': 0.6361719369888306, 'learning_rate': 5e-05, 'epoch': 0.1}
+{'loss': 1.153, 'grad_norm': 0.6732666492462158, 'learning_rate': 5.6250000000000005e-05, 'epoch': 0.11}
+{'loss': 1.1944, 'grad_norm': 0.6798792481422424, 'learning_rate': 6.25e-05, 'epoch': 0.13}
+{'loss': 1.0933, 'grad_norm': 0.6104094982147217, 'learning_rate': 6.875e-05, 'epoch': 0.14}
+{'loss': 1.0878, 'grad_norm': 0.6164690256118774, 'learning_rate': 7.500000000000001e-05, 'epoch': 0.15}
+{'loss': 1.0, 'grad_norm': 0.5715486407279968, 'learning_rate': 8.125000000000001e-05, 'epoch': 0.16}
+{'loss': 0.9351, 'grad_norm': 0.5675491094589233, 'learning_rate': 8.75e-05, 'epoch': 0.18}
+{'loss': 0.901, 'grad_norm': 0.5311582088470459, 'learning_rate': 9.375e-05, 'epoch': 0.19}
+{'loss': 0.7007, 'grad_norm': 0.6996473073959351, 'learning_rate': 0.0001, 'epoch': 0.2}
+{'loss': 0.5124, 'grad_norm': 1.003464698791504, 'learning_rate': 9.998776383426216e-05, 'epoch': 0.22}
+{'loss': 0.271, 'grad_norm': 1.881201982498169, 'learning_rate': 9.995106132599869e-05, 'epoch': 0.23}
+{'loss': 0.1923, 'grad_norm': 1.7056770324707031, 'learning_rate': 9.988991043912857e-05, 'epoch': 0.24}
+{'loss': 0.3875, 'grad_norm': 0.15538671612739563, 'learning_rate': 9.980434110374724e-05, 'epoch': 0.25}
+{'loss': 0.645, 'grad_norm': 0.2875184118747711, 'learning_rate': 9.969439520147754e-05, 'epoch': 0.27}
+{'loss': 0.6489, 'grad_norm': 0.30971232056617737, 'learning_rate': 9.956012654497074e-05, 'epoch': 0.28}
+  File "/root/miniconda3/envs/test/bin/llamafactory-cli", line 8, in <module>
+    sys.exit(main())
+  File "/root/autodl-tmp/LLaMA-Factory/src/llamafactory/cli.py", line 117, in main
+    run_exp()
+  File "/root/autodl-tmp/LLaMA-Factory/src/llamafactory/train/tuner.py", line 123, in run_exp
+    )
+  File "/root/autodl-tmp/LLaMA-Factory/src/llamafactory/train/tuner.py", line 70, in _training_function
+    run_sft(model_args, data_args, training_args, finetuning_args, generating_args, callbacks)
+  File "/root/autodl-tmp/LLaMA-Factory/src/llamafactory/train/sft/workflow.py", line 102, in run_sft
+    train_result = trainer.train(resume_from_checkpoint=training_args.resume_from_checkpoint)
+  File "/root/miniconda3/envs/test/lib/python3.10/site-packages/transformers/trainer.py", line 2245, in train
+    return inner_training_loop(
+  File "/root/miniconda3/envs/test/lib/python3.10/site-packages/transformers/trainer.py", line 2556, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "/root/miniconda3/envs/test/lib/python3.10/site-packages/transformers/trainer.py", line 3764, in training_step
+    self.accelerator.backward(loss, **kwargs)
+  File "/root/miniconda3/envs/test/lib/python3.10/site-packages/accelerate/accelerator.py", line 2359, in backward
+    loss.backward(**kwargs)
+  File "/root/miniconda3/envs/test/lib/python3.10/site-packages/torch/_tensor.py", line 626, in backward
+    torch.autograd.backward(
+  File "/root/miniconda3/envs/test/lib/python3.10/site-packages/torch/autograd/__init__.py", line 347, in backward
+    _engine_run_backward(
+  File "/root/miniconda3/envs/test/lib/python3.10/site-packages/torch/autograd/graph.py", line 823, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/test/bin/llamafactory-cli", line 8, in <module>
+    sys.exit(main())
+  File "/root/autodl-tmp/LLaMA-Factory/src/llamafactory/cli.py", line 117, in main
+    run_exp()
+  File "/root/autodl-tmp/LLaMA-Factory/src/llamafactory/train/tuner.py", line 123, in run_exp
+    )
+  File "/root/autodl-tmp/LLaMA-Factory/src/llamafactory/train/tuner.py", line 70, in _training_function
+    run_sft(model_args, data_args, training_args, finetuning_args, generating_args, callbacks)
+  File "/root/autodl-tmp/LLaMA-Factory/src/llamafactory/train/sft/workflow.py", line 102, in run_sft
+    train_result = trainer.train(resume_from_checkpoint=training_args.resume_from_checkpoint)
+  File "/root/miniconda3/envs/test/lib/python3.10/site-packages/transformers/trainer.py", line 2245, in train
+    return inner_training_loop(
+  File "/root/miniconda3/envs/test/lib/python3.10/site-packages/transformers/trainer.py", line 2556, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "/root/miniconda3/envs/test/lib/python3.10/site-packages/transformers/trainer.py", line 3764, in training_step
+    self.accelerator.backward(loss, **kwargs)
+  File "/root/miniconda3/envs/test/lib/python3.10/site-packages/accelerate/accelerator.py", line 2359, in backward
+    loss.backward(**kwargs)
+  File "/root/miniconda3/envs/test/lib/python3.10/site-packages/torch/_tensor.py", line 626, in backward
+    torch.autograd.backward(
+  File "/root/miniconda3/envs/test/lib/python3.10/site-packages/torch/autograd/__init__.py", line 347, in backward
+    _engine_run_backward(
+  File "/root/miniconda3/envs/test/lib/python3.10/site-packages/torch/autograd/graph.py", line 823, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

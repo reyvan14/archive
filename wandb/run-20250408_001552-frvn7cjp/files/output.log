@@ -1,0 +1,174 @@
+ 42%|████████████████████████████████████████████████▎                                                                 | 100/236 [36:58<53:06, 23.43s/it][INFO|trainer.py:3966] 2025-04-08 00:52:52,569 >> Saving model checkpoint to saves/Qwen2.5-32B-Instructs/lora/sft/checkpoint-100
+{'loss': 1.0911, 'grad_norm': 0.6636768579483032, 'learning_rate': 4.166666666666667e-05, 'epoch': 0.08}
+{'loss': 0.8681, 'grad_norm': 0.32681572437286377, 'learning_rate': 8.333333333333334e-05, 'epoch': 0.17}
+{'loss': 0.5932, 'grad_norm': 0.1835821568965912, 'learning_rate': 9.980249213076084e-05, 'epoch': 0.25}
+{'loss': 0.496, 'grad_norm': 0.19993804395198822, 'learning_rate': 9.860114570402054e-05, 'epoch': 0.34}
+{'loss': 0.4482, 'grad_norm': 0.19145555794239044, 'learning_rate': 9.633448037159167e-05, 'epoch': 0.42}
+{'loss': 0.4358, 'grad_norm': 0.16702821850776672, 'learning_rate': 9.305218058836778e-05, 'epoch': 0.51}
+{'loss': 0.4054, 'grad_norm': 0.15756450593471527, 'learning_rate': 8.882619313590212e-05, 'epoch': 0.59}
+{'loss': 0.3969, 'grad_norm': 0.1731022447347641, 'learning_rate': 8.374915007591053e-05, 'epoch': 0.68}
+{'loss': 0.3933, 'grad_norm': 0.20587284862995148, 'learning_rate': 7.793233829018262e-05, 'epoch': 0.76}
+{'loss': 0.3705, 'grad_norm': 0.16288909316062927, 'learning_rate': 7.150326011382604e-05, 'epoch': 0.84}
+[INFO|configuration_utils.py:697] 2025-04-08 00:52:52,593 >> loading configuration file ../Qwen/Qwen2.5-32B-Instruct/config.json
+[INFO|configuration_utils.py:771] 2025-04-08 00:52:52,594 >> Model config Qwen2Config {
+  "architectures": [
+    "Qwen2ForCausalLM"
+  ],
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "eos_token_id": 151645,
+  "hidden_act": "silu",
+  "hidden_size": 5120,
+  "initializer_range": 0.02,
+  "intermediate_size": 27648,
+  "max_position_embeddings": 32768,
+  "max_window_layers": 70,
+  "model_type": "qwen2",
+  "num_attention_heads": 40,
+  "num_hidden_layers": 64,
+  "num_key_value_heads": 8,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 1000000.0,
+  "sliding_window": 131072,
+  "tie_word_embeddings": false,
+  "torch_dtype": "bfloat16",
+  "transformers_version": "4.50.0",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 152064
+}
+
+[INFO|tokenization_utils_base.py:2510] 2025-04-08 00:52:53,227 >> tokenizer config file saved in saves/Qwen2.5-32B-Instructs/lora/sft/checkpoint-100/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2519] 2025-04-08 00:52:53,228 >> Special tokens file saved in saves/Qwen2.5-32B-Instructs/lora/sft/checkpoint-100/special_tokens_map.json
+ 85%|██████████████████████████████████████████████████████████████████████████████████████████████▉                 | 200/236 [1:13:38<12:59, 21.66s/it][INFO|trainer.py:3966] 2025-04-08 01:29:31,822 >> Saving model checkpoint to saves/Qwen2.5-32B-Instructs/lora/sft/checkpoint-200
+{'loss': 0.3824, 'grad_norm': 0.19778254628181458, 'learning_rate': 6.460283853184879e-05, 'epoch': 0.93}
+{'loss': 0.3792, 'grad_norm': 0.1951262354850769, 'learning_rate': 5.738232820012407e-05, 'epoch': 1.01}
+{'loss': 0.3636, 'grad_norm': 0.22544574737548828, 'learning_rate': 5e-05, 'epoch': 1.09}
+{'loss': 0.3393, 'grad_norm': 0.20229235291481018, 'learning_rate': 4.2617671799875944e-05, 'epoch': 1.18}
+{'loss': 0.3438, 'grad_norm': 0.20232127606868744, 'learning_rate': 3.539716146815122e-05, 'epoch': 1.26}
+{'loss': 0.326, 'grad_norm': 0.21412764489650726, 'learning_rate': 2.8496739886173995e-05, 'epoch': 1.35}
+{'loss': 0.3544, 'grad_norm': 0.2153073251247406, 'learning_rate': 2.2067661709817383e-05, 'epoch': 1.43}
+{'loss': 0.3466, 'grad_norm': 0.22357378900051117, 'learning_rate': 1.6250849924089484e-05, 'epoch': 1.51}
+{'loss': 0.3484, 'grad_norm': 0.22302865982055664, 'learning_rate': 1.1173806864097886e-05, 'epoch': 1.6}
+{'loss': 0.3254, 'grad_norm': 0.27504879236221313, 'learning_rate': 6.947819411632223e-06, 'epoch': 1.68}
+[INFO|configuration_utils.py:697] 2025-04-08 01:29:31,851 >> loading configuration file ../Qwen/Qwen2.5-32B-Instruct/config.json
+[INFO|configuration_utils.py:771] 2025-04-08 01:29:31,851 >> Model config Qwen2Config {
+  "architectures": [
+    "Qwen2ForCausalLM"
+  ],
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "eos_token_id": 151645,
+  "hidden_act": "silu",
+  "hidden_size": 5120,
+  "initializer_range": 0.02,
+  "intermediate_size": 27648,
+  "max_position_embeddings": 32768,
+  "max_window_layers": 70,
+  "model_type": "qwen2",
+  "num_attention_heads": 40,
+  "num_hidden_layers": 64,
+  "num_key_value_heads": 8,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 1000000.0,
+  "sliding_window": 131072,
+  "tie_word_embeddings": false,
+  "torch_dtype": "bfloat16",
+  "transformers_version": "4.50.0",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 152064
+}
+
+[INFO|tokenization_utils_base.py:2510] 2025-04-08 01:29:32,714 >> tokenizer config file saved in saves/Qwen2.5-32B-Instructs/lora/sft/checkpoint-200/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2519] 2025-04-08 01:29:32,715 >> Special tokens file saved in saves/Qwen2.5-32B-Instructs/lora/sft/checkpoint-200/special_tokens_map.json
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 236/236 [1:26:57<00:00, 21.19s/it][INFO|trainer.py:3966] 2025-04-08 01:42:51,005 >> Saving model checkpoint to saves/Qwen2.5-32B-Instructs/lora/sft/checkpoint-236
+{'loss': 0.3397, 'grad_norm': 0.24151645600795746, 'learning_rate': 3.6655196284083317e-06, 'epoch': 1.77}
+{'loss': 0.3303, 'grad_norm': 0.22614693641662598, 'learning_rate': 1.3988542959794627e-06, 'epoch': 1.85}
+{'loss': 0.3342, 'grad_norm': 0.2188243716955185, 'learning_rate': 1.975078692391552e-07, 'epoch': 1.94}
+[INFO|configuration_utils.py:697] 2025-04-08 01:42:51,038 >> loading configuration file ../Qwen/Qwen2.5-32B-Instruct/config.json
+[INFO|configuration_utils.py:771] 2025-04-08 01:42:51,039 >> Model config Qwen2Config {
+  "architectures": [
+    "Qwen2ForCausalLM"
+  ],
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "eos_token_id": 151645,
+  "hidden_act": "silu",
+  "hidden_size": 5120,
+  "initializer_range": 0.02,
+  "intermediate_size": 27648,
+  "max_position_embeddings": 32768,
+  "max_window_layers": 70,
+  "model_type": "qwen2",
+  "num_attention_heads": 40,
+  "num_hidden_layers": 64,
+  "num_key_value_heads": 8,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 1000000.0,
+  "sliding_window": 131072,
+  "tie_word_embeddings": false,
+  "torch_dtype": "bfloat16",
+  "transformers_version": "4.50.0",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 152064
+}
+
+[INFO|tokenization_utils_base.py:2510] 2025-04-08 01:42:51,311 >> tokenizer config file saved in saves/Qwen2.5-32B-Instructs/lora/sft/checkpoint-236/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2519] 2025-04-08 01:42:51,311 >> Special tokens file saved in saves/Qwen2.5-32B-Instructs/lora/sft/checkpoint-236/special_tokens_map.json
+[INFO|trainer.py:2665] 2025-04-08 01:42:51,971 >>
+
+Training completed. Do not forget to share your model on huggingface.co/models =)
+
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 236/236 [1:26:58<00:00, 22.11s/it]
+{'train_runtime': 5220.5826, 'train_samples_per_second': 1.452, 'train_steps_per_second': 0.045, 'train_loss': 0.4328365548182342, 'epoch': 1.99}
+[INFO|trainer.py:3966] 2025-04-08 01:42:52,118 >> Saving model checkpoint to saves/Qwen2.5-32B-Instructs/lora/sft
+[INFO|configuration_utils.py:697] 2025-04-08 01:42:52,143 >> loading configuration file ../Qwen/Qwen2.5-32B-Instruct/config.json
+[INFO|configuration_utils.py:771] 2025-04-08 01:42:52,143 >> Model config Qwen2Config {
+  "architectures": [
+    "Qwen2ForCausalLM"
+  ],
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "eos_token_id": 151645,
+  "hidden_act": "silu",
+  "hidden_size": 5120,
+  "initializer_range": 0.02,
+  "intermediate_size": 27648,
+  "max_position_embeddings": 32768,
+  "max_window_layers": 70,
+  "model_type": "qwen2",
+  "num_attention_heads": 40,
+  "num_hidden_layers": 64,
+  "num_key_value_heads": 8,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 1000000.0,
+  "sliding_window": 131072,
+  "tie_word_embeddings": false,
+  "torch_dtype": "bfloat16",
+  "transformers_version": "4.50.0",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 152064
+}
+
+[INFO|tokenization_utils_base.py:2510] 2025-04-08 01:42:52,970 >> tokenizer config file saved in saves/Qwen2.5-32B-Instructs/lora/sft/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2519] 2025-04-08 01:42:52,971 >> Special tokens file saved in saves/Qwen2.5-32B-Instructs/lora/sft/special_tokens_map.json
+***** train metrics *****
+  epoch                    =      1.9873
+  total_flos               = 494081263GF
+  train_loss               =      0.4328
+  train_runtime            =  1:27:00.58
+  train_samples_per_second =       1.452
+  train_steps_per_second   =       0.045
+Figure saved at: saves/Qwen2.5-32B-Instructs/lora/sft/training_loss.png
+[WARNING|2025-04-08 01:42:53] llamafactory.extras.ploting:148 >> No metric eval_loss to plot.
+[WARNING|2025-04-08 01:42:53] llamafactory.extras.ploting:148 >> No metric eval_accuracy to plot.
+[INFO|modelcard.py:449] 2025-04-08 01:42:53,212 >> Dropping the following result as it does not have all the necessary fields:
+{'task': {'name': 'Causal Language Modeling', 'type': 'text-generation'}}

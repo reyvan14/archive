@@ -1,0 +1,117 @@
+# ### model
+# model_name_or_path: ../Qwen/Qwen2.5-32B-Instruct
+# trust_remote_code: true
+
+# ### method
+# stage: sft
+# do_train: true
+# finetuning_type: lora
+# lora_rank: 8
+# lora_target: all
+# flash_attn: fa2 
+# deepspeed: examples/deepspeed/ds_z2_config.json
+# ### dataset
+# # dataset: 1,2,3,4
+# dataset: d1
+# template: qwen
+# cutoff_len: 4096
+# max_samples: 1000000
+# overwrite_cache: true
+# preprocessing_num_workers: 16
+# dataloader_num_workers: 4
+# report_to: wandb
+# run_name: speed_test_run2
+
+# ### output
+# output_dir: saves/Qwen2.5-32B-Instructs/lora/sft
+# logging_steps: 10
+# save_steps: 100
+# plot_loss: true
+# overwrite_output_dir: true
+# save_only_model: false
+
+# ### train
+# per_device_train_batch_size: 12
+# gradient_accumulation_steps: 8
+# learning_rate: 1.0e-4
+# num_train_epochs: 2.0
+# lr_scheduler_type: cosine
+# warmup_ratio: 0.1
+# bf16: true
+# ddp_timeout: 180000000
+# resume_from_checkpoint: null
+
+# use_unsloth: true
+# logging_steps: 1
+
+
+
+# ### eval
+# # eval_dataset: alpaca_en_demo
+# # val_size: 0.1
+# # per_device_eval_batch_size: 1
+# # eval_strategy: steps
+# # eval_steps: 500
+
+
+
+### model
+model_name_or_path: ../Qwen/Qwen2.5-32B-Instruct
+trust_remote_code: true
+
+### method
+stage: sft
+do_train: true
+finetuning_type: lora
+lora_rank: 8
+lora_target: all
+flash_attn: fa2
+deepspeed: examples/deepspeed/ds_z2_config.json
+use_unsloth: true
+gradient_checkpointing: true
+
+# distributed_training:
+#   enabled: true
+#   num_gpus: 2
+#   parallelism:
+#     tensor_parallelism: true
+#     pipeline_parallelism: true
+
+### dataset
+dataset: d1
+template: qwen
+cutoff_len: 4096
+
+group_by_length: true
+max_samples: 1000000
+overwrite_cache: true
+preprocessing_num_workers: 8
+dataloader_num_workers: 16
+
+### output
+output_dir: saves/Qwen2.5-32B-Instructs/lora/sft_fast11_01
+logging_steps: 1
+save_steps: 100
+plot_loss: true
+overwrite_output_dir: true
+save_only_model: true
+report_to: wandb
+run_name: speed_test2_fast-11
+
+### train
+per_device_train_batch_size: 40
+gradient_accumulation_steps: 10
+learning_rate: 1.0e-4
+num_train_epochs: 1.0
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+bf16: true
+ddp_timeout: 180000000
+resume_from_checkpoint: null
+
+### eval
+# eval_dataset: alpaca_en_demo
+# val_size: 0.1
+# per_device_eval_batch_size: 1
+# eval_strategy: steps
+# eval_steps: 500

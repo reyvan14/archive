@@ -1,0 +1,17 @@
+{"time":"2025-04-08T00:15:52.473818011+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/root/autodl-tmp/LLaMA-Factory/wandb/run-20250408_001552-frvn7cjp/logs/debug-core.log"}
+{"time":"2025-04-08T00:15:53.177823532+08:00","level":"INFO","msg":"created new stream","id":"frvn7cjp"}
+{"time":"2025-04-08T00:15:53.177891611+08:00","level":"INFO","msg":"stream: started","id":"frvn7cjp"}
+{"time":"2025-04-08T00:15:53.17790197+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"frvn7cjp"}
+{"time":"2025-04-08T00:15:53.17793807+08:00","level":"INFO","msg":"handler: started","stream_id":"frvn7cjp"}
+{"time":"2025-04-08T00:15:53.1779409+08:00","level":"INFO","msg":"sender: started","stream_id":"frvn7cjp"}
+{"time":"2025-04-08T00:15:53.626271411+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-08T01:07:54.253932143+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 172.17.0.5:33634->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-04-08T01:08:23.931591736+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 172.17.0.5:47808->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-04-08T01:42:53.942516117+08:00","level":"INFO","msg":"stream: closing","id":"frvn7cjp"}
+{"time":"2025-04-08T01:42:53.942581196+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-08T01:42:53.942705663+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-08T01:42:56.095294119+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-08T01:42:57.561576198+08:00","level":"INFO","msg":"handler: closed","stream_id":"frvn7cjp"}
+{"time":"2025-04-08T01:42:57.561623197+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"frvn7cjp"}
+{"time":"2025-04-08T01:42:57.561641397+08:00","level":"INFO","msg":"sender: closed","stream_id":"frvn7cjp"}
+{"time":"2025-04-08T01:42:57.561732985+08:00","level":"INFO","msg":"stream: closed","id":"frvn7cjp"}

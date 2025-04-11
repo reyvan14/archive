@@ -1,0 +1,45 @@
+  2%|██▍                                                                                                                             | 1/52 [01:02<53:10, 62.55s/it]Traceback (most recent call last):
+Unsloth: Will smartly offload gradients to save VRAM!
+{'loss': 0.5195, 'grad_norm': 0.15005874633789062, 'learning_rate': 1.6666666666666667e-05, 'epoch': 0.02}
+  File "/root/miniconda3/envs/test/bin/llamafactory-cli", line 8, in <module>
+    sys.exit(main())
+  File "/root/autodl-tmp/LLaMA-Factory/src/llamafactory/cli.py", line 117, in main
+    run_exp()
+  File "/root/autodl-tmp/LLaMA-Factory/src/llamafactory/train/tuner.py", line 127, in run_exp
+    _training_function(config={"args": args, "callbacks": callbacks})
+  File "/root/autodl-tmp/LLaMA-Factory/src/llamafactory/train/tuner.py", line 70, in _training_function
+    run_sft(model_args, data_args, training_args, finetuning_args, generating_args, callbacks)
+  File "/root/autodl-tmp/LLaMA-Factory/src/llamafactory/train/sft/workflow.py", line 102, in run_sft
+    train_result = trainer.train(resume_from_checkpoint=training_args.resume_from_checkpoint)
+  File "/root/miniconda3/envs/test/lib/python3.10/site-packages/transformers/trainer.py", line 2245, in train
+    return inner_training_loop(
+  File "<string>", line 315, in _fast_inner_training_loop
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/test/bin/llamafactory-cli", line 8, in <module>
+    sys.exit(main())
+  File "/root/autodl-tmp/LLaMA-Factory/src/llamafactory/cli.py", line 117, in main
+    run_exp()
+  File "/root/autodl-tmp/LLaMA-Factory/src/llamafactory/train/tuner.py", line 127, in run_exp
+    _training_function(config={"args": args, "callbacks": callbacks})
+  File "/root/autodl-tmp/LLaMA-Factory/src/llamafactory/train/tuner.py", line 70, in _training_function
+    run_sft(model_args, data_args, training_args, finetuning_args, generating_args, callbacks)
+  File "/root/autodl-tmp/LLaMA-Factory/src/llamafactory/train/sft/workflow.py", line 102, in run_sft
+    train_result = trainer.train(resume_from_checkpoint=training_args.resume_from_checkpoint)
+  File "/root/miniconda3/envs/test/lib/python3.10/site-packages/transformers/trainer.py", line 2245, in train
+    return inner_training_loop(
+  File "<string>", line 315, in _fast_inner_training_loop
+KeyboardInterrupt
+Exception ignored in atexit callback: <function _start_and_connect_service.<locals>.teardown_atexit at 0x7ff602f0e320>
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/test/lib/python3.10/site-packages/wandb/sdk/lib/service_connection.py", line 94, in teardown_atexit
+    conn.teardown(hooks.exit_code)
+  File "/root/miniconda3/envs/test/lib/python3.10/site-packages/wandb/sdk/lib/service_connection.py", line 226, in teardown
+    self._router.join()
+  File "/root/miniconda3/envs/test/lib/python3.10/site-packages/wandb/sdk/interface/router.py", line 75, in join
+    self._thread.join()
+  File "/root/miniconda3/envs/test/lib/python3.10/threading.py", line 1096, in join
+    self._wait_for_tstate_lock()
+  File "/root/miniconda3/envs/test/lib/python3.10/threading.py", line 1116, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+KeyboardInterrupt:
